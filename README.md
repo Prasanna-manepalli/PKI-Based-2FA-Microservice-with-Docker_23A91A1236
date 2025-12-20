@@ -18,7 +18,7 @@ It includes:
 
 ### GitHub Repository
 ```
-https://github.com/Shamshuu/pki-2fa--24A95A1211
+https://github.com/Prasanna-manepalli/PKI-Based-2FA-Microservice-with-Docker_23A91A1236
 ```
 This URL was also used for instructor API seed generation and final submission.
 
@@ -38,6 +38,12 @@ This project securely generates a TOTP-based 2FA code using:
 ## 3. Directory Structure
 ```
 .
+├── app/
+│   ├── server.py
+│   ├── crypto_utils.py
+│   ├── totp_utils.py
+│   └── generate_proof.py
+│
 ├── cron/
 │   └── totp_cron
 │
