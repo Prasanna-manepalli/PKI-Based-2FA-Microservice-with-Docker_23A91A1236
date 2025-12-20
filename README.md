@@ -38,12 +38,6 @@ This project securely generates a TOTP-based 2FA code using:
 ## 3. Directory Structure
 ```
 .
-├── app/
-│   ├── server.py
-│   ├── crypto_utils.py
-│   ├── totp_utils.py
-│   └── generate_proof.py
-│
 ├── cron/
 │   └── totp_cron
 │
